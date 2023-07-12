@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18c476ba.css",
+    "main.js": "/static/js/main.a25e9c08.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Me.png": "/static/media/Me.beee46da1af9f915c6a7.png",
+    "static/media/CV_hamza_hafaiedh.pdf": "/static/media/CV_hamza_hafaiedh.488a0030deb6e5e28601.pdf",
+    "static/media/lpn.png": "/static/media/lpn.2f20ea48470b6c8ae75d.png",
+    "static/media/HospiHub.png": "/static/media/HospiHub.ab256d7d9dccd4367df2.png",
+    "static/media/Certif3.png": "/static/media/Certif3.9432df3e9c0527abcf29.png",
+    "static/media/Certif2.png": "/static/media/Certif2.d7f7f8b4e2aa0646953a.png",
+    "static/media/Certif1.png": "/static/media/Certif1.dde4b7faad500bce97e8.png",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Kadem.png": "/static/media/Kadem.45142595b6d065bdbf80.png",
+    "static/media/Smart Esprit.png": "/static/media/Smart Esprit.41c78deb8de006912858.png",
+    "static/media/esprit.png": "/static/media/esprit.5c135423238c023eae19.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/ipein.png": "/static/media/ipein.93a616effa922a238b2d.png",
+    "static/media/logo.png": "/static/media/logo.0f6e740fea5d7a34cff3.png",
+    "index.html": "/index.html",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "main.18c476ba.css.map": "/static/css/main.18c476ba.css.map",
+    "main.a25e9c08.js.map": "/static/js/main.a25e9c08.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18c476ba.css",
+    "static/js/main.a25e9c08.js"
+  ]
+}
