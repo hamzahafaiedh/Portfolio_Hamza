@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/Me.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Tilt from "react-parallax-tilt";
 
 function Home() {
   return (

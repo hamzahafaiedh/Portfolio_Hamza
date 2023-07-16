@@ -14,6 +14,8 @@ html {
   --imp-text-color: #c770f0;
 }
 
+
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -167,6 +169,7 @@ button:focus {
 
 .nav-link {
   padding: 0.8rem 1rem !important;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {

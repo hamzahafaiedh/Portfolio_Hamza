@@ -8,27 +8,35 @@ import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import Education from "./components/Education/Educ";
 import Certif from "./components/Certifications/Certif";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate
-} from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
+import { Element } from "react-scroll";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import ScrollReveal from "scrollreveal";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, updateLoad] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      updateLoad(false);
     }, 1200);
 
     return () => clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    ScrollReveal().reveal(".scroll-reveal", {
+      distance: "20px",
+      duration: 1000,
+      delay: 200,
+      origin: "right", // Change the origin to "right" for side animation
+      interval: 100,
+    });
+  }, []);
+  
 
   return (
     <Router>
@@ -37,13 +45,32 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/education" element={<Education/>}/>
-          <Route path="/certifications" element={<Certif/>}/>
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route
+            path="/"
+            element={
+              <>
+                <Element name="home">
+                  <Home />
+                </Element>
+                <Element name="education">
+                  <Education />
+                </Element>
+                <Element name="about">
+                  <About />
+                </Element>
+                <Element name="projects">
+                  <Projects />
+                </Element>
+                <Element name="certifications">
+                  <Certif />
+                </Element>
+                <Element name="resume">
+                  <Resume />
+                </Element>
+              </>
+            }
+          />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>

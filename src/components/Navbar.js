@@ -4,6 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+import "../style.css"
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -31,11 +33,11 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
+      className={navColour ? "sticky navbar" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo}  style={{ height: "30px" }} alt="brand"/>
+        <Navbar.Brand as={Link} to="/" className="d-flex">
+          <img src={logo} style={{ height: "30px" }} alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -50,68 +52,102 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <ScrollLink
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={() => updateExpanded(false)}
+                className="nav-link"
+              >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
+              </ScrollLink>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
+              <ScrollLink
+                activeClass="active"
+                to="education"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/education"
-                onClick={() => updateExpanded(false)}
+                className="nav-link"
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Education
-              </Nav.Link>
+              </ScrollLink>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
+              <ScrollLink
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 onClick={() => updateExpanded(false)}
+                className="nav-link"
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+              </ScrollLink>
+            </Nav.Item>         
+
+            <Nav.Item>
+              <ScrollLink
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={() => updateExpanded(false)}
+                className="nav-link"
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
-              </Nav.Link>
+              </ScrollLink>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/certifications"
+              <ScrollLink
+                activeClass="active"
+                to="certifications"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 onClick={() => updateExpanded(false)}
+                className="nav-link"
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Certifications
-              </Nav.Link>
+              </ScrollLink>
+            </Nav.Item>
+
+            <Nav.Item>
+              <ScrollLink
+                activeClass="active"
+                to="resume"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={() => updateExpanded(false)}
+                className="nav-link"
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </ScrollLink>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
