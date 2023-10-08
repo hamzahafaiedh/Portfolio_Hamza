@@ -22,7 +22,7 @@ function AboutCard() {
               <ImPointRight /> Playing Video Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Phography
+              <ImPointRight /> Photography
             </li>
             <li className="about-activity">
               <ImPointRight /> Sports
