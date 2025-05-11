@@ -8,15 +8,18 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Hamza Hafaiedh </span>
-            from <span className="purple"> Nabeul, Tunisia.</span>
-            <br /> I am a second-year student pursuing an engineering degree at the Private School of Engineering and Technologies, specializing in web development.
+            Hey there! I'm <span className="purple">Hamza Hafaiedh</span> from <span className="purple">Nabeul, Tunisia</span>.
             <br />
-            With a creative and passionate mindset, I have always been drawn to the field of web development
+            I'm a web development engineer currently working at a startup, and I'm looking for a new opportunity to grow and take on new challenges.
+            <br />
+            I’m passionate about modern web technologies, DevOps tools, and clean development practices.
+            <br />
+            I’m someone who loves learning, communicating clearly, and working with others to build awesome stuff.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Outside of coding, there are a few other things I enjoy doing too!
           </p>
+
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Video Games

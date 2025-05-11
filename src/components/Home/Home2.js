@@ -13,12 +13,12 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            A passionate Full Stack Software Developer 🚀 having an experience of building Web applications. <br></br>
-            Contact Me : Hamza.hafaiedh13@gmail.com
+            A passionate FullStack Web Developer 🚀 having an experience of building Web Applications. <br></br>
+            Contact Me : <a href="mailto:Hamza.hafaiedh13@gmail.com" className="purple">Hamza.hafaiedh13@gmail.com</a>
               <br />
               <br />I am fluent with 
               <i>
-                <b className="purple"> Java / JavaScript / Angular / Reactjs / Nodejs / Spring Boot</b>
+                <b className="purple"> Java / JavaScript / TypeScript / C# / Angular / Reactjs / .Net / Nodejs / Spring Boot</b>
               </i>
               <br />
               and some other cool libraries and frameworks.

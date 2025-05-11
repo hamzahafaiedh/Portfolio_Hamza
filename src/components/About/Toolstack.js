@@ -6,6 +6,12 @@ import {
   SiSlack,
   SiVercel,
   SiGithub,
+  SiAzurepipelines,
+  SiAzuredevops,
+  SiMicrosoftazure,
+  SiConfluence,
+  SiSwagger,
+  SiVisualstudio,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -15,7 +21,19 @@ function Toolstack() {
         <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftazure />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiConfluence />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSwagger />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />

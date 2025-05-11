@@ -43,8 +43,9 @@ function Projects() {
             <ProjectCard
               imgPath={SmartEsprit}
               isBlog={false}
-              title="Smart Esprit"
-              description="Development of a desktop application that enables establishments to manage various services such as administration, catering, inventory, dormitories, users, and complaints. Response: Selected to participate in the Project Ball, 9th edition 2022."              
+              title="CampMaster"
+              description="Development of a microservices-based application for camping enthusiasts. It allows users to organize events, join camping trips, and access special menus tailored for participants."              
+              ghLink="https://github.com/hamzahafaiedh/MicroServicesCampingApp"
             />
           </Col>
         </Row>
