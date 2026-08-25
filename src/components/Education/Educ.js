@@ -30,7 +30,7 @@ function Educ() {
                   imgPath={ipein}
                   isBlog={false}
                   title="IPEIN - Preparatory Institute for Engineering Studies in Nabeul"
-                  description="National Entrance Examinations for Engineering Training Cycles"
+                  description="Math-Physics Preparatory Cycle"
                   text="September 2019 - June 2021"
                 />
               </Col>
@@ -40,8 +40,8 @@ function Educ() {
                   imgPath={esprit}
                   isBlog={false}
                   title="ESPRIT - Private Higher School of Engineering and Technology"
-                  description="Engineering degree in Computer Science (in progress)"
-                  text="September 2021 - Present "
+                  description="Engineering Degree in Computer Science"
+                  text="September 2021 - July 2024 "
                   />
               </Col>
             </Row>

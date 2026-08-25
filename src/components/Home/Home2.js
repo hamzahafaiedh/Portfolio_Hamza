@@ -13,20 +13,20 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            A passionate FullStack Web Developer 🚀 having an experience of building Web Applications. <br></br>
+            A passionate Full-Stack Software Engineer 🚀 with 3+ years building AI-integrated web platforms. <br></br>
             Contact Me : <a href="mailto:Hamza.hafaiedh13@gmail.com" className="purple">Hamza.hafaiedh13@gmail.com</a>
               <br />
-              <br />I am fluent with 
+              <br />I work daily with 
               <i>
-                <b className="purple"> Java / JavaScript / TypeScript / C# / Angular / Reactjs / .Net / Nodejs / Spring Boot</b>
+                <b className="purple"> TypeScript / React / Next.js / Node.js / C# / .NET / Python / FastAPI</b>
               </i>
               <br />
-              and some other cool libraries and frameworks.
+              and their surrounding libraries, frameworks and cloud tooling.
               <br />
               <br></br>
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products. </b> 
+                <b className="purple">AI-driven Web Technologies and Products. </b> 
               </i>
               <br />
               <br />

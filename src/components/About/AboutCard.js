@@ -10,9 +10,9 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hey there! I'm <span className="purple">Hamza Hafaiedh</span> from <span className="purple">Nabeul, Tunisia</span>.
             <br />
-            I'm a web development engineer currently working at a startup, and I'm looking for a new opportunity to grow and take on new challenges.
+            I'm a Full-Stack Software Engineer with 3+ years of experience, currently leading a 3-engineer team on client integration engineering at a Swiss remote-first company.
             <br />
-            I’m passionate about modern web technologies, DevOps tools, and clean development practices.
+            I specialize in the <span className="purple">TypeScript / React</span> ecosystem, backend consolidation, and shipping production SDKs, and I'm passionate about modern web technologies, AI integration and clean development practices.
             <br />
             I’m someone who loves learning, communicating clearly, and working with others to build awesome stuff.
             <br />

@@ -2,9 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import SmartEsprit from "../../Assets/Projects/Smart Esprit.png";
-import HospiHub from "../../Assets/Projects/HospiHub.png";
-import Kadem from "../../Assets/Projects/Kadem.png";
+import RoohElMedina from "../../Assets/Projects/RoohElMedinaMock.png";
+import ClothingStore from "../../Assets/Projects/ClothingStoreMock.png";
+import FiveSenses from "../../Assets/Projects/FiveSensesMock.png";
+import Blackwood from "../../Assets/Projects/BlackwoodMock.png";
 
 function Projects() {
   return (
@@ -15,37 +16,46 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few production web platforms I've built and shipped for real clients.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={HospiHub}
+              imgPath={RoohElMedina}
               isBlog={false}
-              title="HospiHub"
-              description="Development of a Full Stack JS web application that ensures a comprehensive schedule management system for doctors and appointment scheduling for patients in private hospitals, along with a recommendation system that informs patients about their illnesses and necessary precautions."
-              ghLink="https://github.com/hamzahafaiedh/FrontEnd-PI-TWIN7-2023-THE-DEBUGGERS"
-              demoLink="https://hospihub.vercel.app"
+              title="Rooh El Medina"
+              description="Production website for a Tunisian restaurant, built with React, Vite, Tailwind CSS and Supabase (PostgreSQL, Auth, Row Level Security, Storage). Public site with a dynamic menu and events, plus a secure admin dashboard for managing content, discounts and QR-code menus serving ~250 monthly visitors."
+              demoLink="https://www.roohelmedina.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Kadem}
+              imgPath={ClothingStore}
               isBlog={false}
-              title="Kaddem"
-              description="Development of a web application that enables the management of universities, students, and teachers, along with their activities such as events, contracts, clubs, and project teams."
-              ghLink="https://github.com/hamzahafaiedh/KademFront"
+              title="Clothing Store E-Commerce"
+              description="Full-stack e-commerce platform for clothing brands, built with Next.js, TypeScript, Tailwind CSS, Supabase (PostgreSQL, Auth, Row Level Security, Storage) and Zustand. Mobile-first storefront with product variants, persistent cart and WhatsApp checkout, plus an admin dashboard for products, orders, categories and discounts."
+              demoLink="https://clothing-e-commerce-eight.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={SmartEsprit}
+              imgPath={FiveSenses}
               isBlog={false}
-              title="CampMaster"
-              description="Development of a microservices-based application for camping enthusiasts. It allows users to organize events, join camping trips, and access special menus tailored for participants."              
-              ghLink="https://github.com/hamzahafaiedh/MicroServicesCampingApp"
+              title="The Five Senses"
+              description="Restaurant web app for a Tunisian restaurant, built with React, Vite, Tailwind CSS and Supabase (PostgreSQL, Auth, Row Level Security, Storage). Features a modern, animated landing page, popular-dishes showcase, table booking and bilingual (EN/FR) content."
+              demoLink="https://the-five-senses.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Blackwood}
+              isBlog={false}
+              title="Blackwood"
+              description="Restaurant web app for Blackwood in Hammamet, Tunisia, built with React, Vite, Tailwind CSS and Supabase (PostgreSQL, Auth, Row Level Security, Storage). An elegant single-page site covering the story, menu, reviews, awards and table reservations with a refined, editorial visual style."
+              demoLink="https://blackwood-restaurant.vercel.app/"
             />
           </Col>
         </Row>
